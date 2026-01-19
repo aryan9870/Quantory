@@ -3,14 +3,14 @@ import Hero from './Hero'
 import Navbar from '../partials/Navbar'
 import Footer from '../partials/Footer'
 import Brokerage from './Brokerage'
+import OpenAccount from '../partials/OpenAccount'
 
 const PricingPage = () => {
   return (
     <>
-    <Navbar />
     <Hero />
+    <OpenAccount />
     <Brokerage />
-    <Footer />
     </>
   )
 }

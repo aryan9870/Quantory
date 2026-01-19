@@ -7,10 +7,8 @@ import Footer from '../partials/Footer'
 const SupportPage = () => {
   return (
     <>
-    <Navbar />
     <Hero />
     <CreateTicket />
-    <Footer />
     </>
   )
 }

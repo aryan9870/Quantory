@@ -4,15 +4,13 @@ import Footer from '../partials/Footer'
 import Navbar from '../partials/Navbar'
 import Hero from './Hero'
 
-const AnoutPage = () => {
+const AboutPage = () => {
   return (
     <>
-    <Navbar />
     <Hero />
     <Team />
-    <Footer />
     </>
   )
 }
 
-export default AnoutPage
+export default AboutPage
