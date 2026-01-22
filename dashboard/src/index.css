@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.profit { color: #4caf50; }
+.loss { color: #ef5350; }
+
+.mute { color: rgb(180,178,178);}
+
+
+.search-input {
+  outline: none;
+  box-shadow: none;
+  border: none;                     /* pehle sab hatao */
+  border-bottom: 1px solid #ddd;    /* bottom border */
+  border-radius: 0;                 /* straight look */
+}
+
+.search-input:focus {
+  border-top-color: #bbb;
+  border-bottom-color: #bbb;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.list-hover {
+  transition: background-color 0.1s ease;
+}
+
+.list-hover:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* light muted */
+  cursor: pointer;
+}
